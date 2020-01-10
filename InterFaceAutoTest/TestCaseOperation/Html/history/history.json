@@ -1,0 +1,141 @@
+{
+  "e7035c441ec304ee9742e0f75d4b824c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8622979c77c98641",
+      "status" : "passed",
+      "time" : {
+        "start" : 1571988058342,
+        "stop" : 1571988058386,
+        "duration" : 44
+      }
+    } ]
+  },
+  "7a5cf43c39b6301653f73ed50bf87c9f" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fe4315d483075c13",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert \"<script>top.location.href='/login/';</script>\" == None\n +  where \"<script>top.location.href='/login/';</script>\" = <InterFaceAutoTest.TestCaseOperation.TestCaseParam.TestCaseParam object at 0x00000265F77D1508>.get_actual",
+      "time" : {
+        "start" : 1571988108003,
+        "stop" : 1571988108833,
+        "duration" : 830
+      }
+    } ]
+  },
+  "9440bf747d275d1d8f8b352e8a98020d" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "86582388d0c4ef68",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '<!DOCTYPE html>\\r\\n<!--STATUS OK--><html> <head><meta http-equiv=content-type content=text/html;charset=utf-8><meta h...nbsp;äº¬ICPè¯\\x81030173å\\x8f·&nbsp; <img src=//www.baidu.com/img/gs.gif> </p> </div> </div> </div> </body> </html>\\r\\n' == {'text': '百度一下', 'title': '百度一下'}\n +  where '<!DOCTYPE html>\\r\\n<!--STATUS OK--><html> <head><meta http-equiv=content-type content=text/html;charset=utf-8><meta h...nbsp;äº¬ICPè¯\\x81030173å\\x8f·&nbsp; <img src=//www.baidu.com/img/gs.gif> </p> </div> </div> </div> </body> </html>\\r\\n' = <InterFaceAutoTest.TestCaseOperation.TestCaseParam.TestCaseParam object at 0x00000265F6AE6388>.get_actual",
+      "time" : {
+        "start" : 1571988058387,
+        "stop" : 1571988061501,
+        "duration" : 3114
+      }
+    } ]
+  },
+  "d9084e4f894db023b59556db7a0d7e5a" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d32fb1d3a09e1665",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '\\r\\n<style>\\r\\n.freetips{text-align:center;margin-top: 15px;}\\r\\n.freetips a{background: #1E7ED0; font-size:15px;text...play:none;\">当前版本：免费版v12.9.0520</div>\\r\\n<script>layer.msg(\\'登录成功\\',{maxWidth:120});top.location.href=\"/crm/\";</script>' == {'text': '登录成功'}\n +  where '\\r\\n<style>\\r\\n.freetips{text-align:center;margin-top: 15px;}\\r\\n.freetips a{background: #1E7ED0; font-size:15px;text...play:none;\">当前版本：免费版v12.9.0520</div>\\r\\n<script>layer.msg(\\'登录成功\\',{maxWidth:120});top.location.href=\"/crm/\";</script>' = <InterFaceAutoTest.TestCaseOperation.TestCaseParam.TestCaseParam object at 0x00000265F77B2F88>.get_actual",
+      "time" : {
+        "start" : 1571988106874,
+        "stop" : 1571988107660,
+        "duration" : 786
+      }
+    } ]
+  },
+  "9ab43edc98c7a8bc5b8b1317d1dc77e4" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6d32929ec1ed0a1b",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert {'code': '2',...name': 'lisi'} == {'code': '2',...name': 'li12'}\n  Omitting 3 identical items, use -vv to show\n  Differing items:\n  {'username': 'lisi'} != {'username': 'li12'}\n  Use -v to get the full diff",
+      "time" : {
+        "start" : 1571988058135,
+        "stop" : 1571988058340,
+        "duration" : 205
+      }
+    } ]
+  },
+  "c30f4d416588a4e15b2de2d1c80d344a" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3e45717ec0d2926",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert {'code': '201..., 'status': 0} == {'code': 1, 'msg': '手机号已经存在'}\n  Differing items:\n  {'msg': '手机号码已被注册'} != {'msg': '手机号已经存在'}\n  {'code': '20110'} != {'code': 1}\n  Left contains 2 more items:\n  {'data': None, 'status': 0}\n  Use -v to get the full diff",
+      "time" : {
+        "start" : 1571988106827,
+        "stop" : 1571988106873,
+        "duration" : 46
+      }
+    } ]
+  },
+  "34c0483c40ffeb7a0bfac578db0082f2" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cc07b8b1a3874110",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '\\r\\n<style>\\r\\n.freetips{text-align:center;margin-top: 15px;}\\r\\n.freetips a{background: #1E7ED0; font-size:15px;text...t>\\r\\n<div style=\"display:none;\">当前版本：免费版v12.9.0520</div>\\r\\n<script>layer.msg(\\'帐号或密码不能为空\\',{maxWidth:180});</script>' == {'text': '帐号或密码错误'}\n +  where '\\r\\n<style>\\r\\n.freetips{text-align:center;margin-top: 15px;}\\r\\n.freetips a{background: #1E7ED0; font-size:15px;text...t>\\r\\n<div style=\"display:none;\">当前版本：免费版v12.9.0520</div>\\r\\n<script>layer.msg(\\'帐号或密码不能为空\\',{maxWidth:180});</script>' = <InterFaceAutoTest.TestCaseOperation.TestCaseParam.TestCaseParam object at 0x00000265F77C9D48>.get_actual",
+      "time" : {
+        "start" : 1571988107661,
+        "stop" : 1571988108002,
+        "duration" : 341
+      }
+    } ]
+  }
+}

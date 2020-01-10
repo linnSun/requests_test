@@ -1,0 +1,61 @@
+{
+  "uid" : "8622979c77c98641",
+  "name" : "TestCaseParam.TestCaseParam.test_all[get_value1]",
+  "fullName" : "InterFaceAutoTest.TestCaseOperation.TestCaseParam.TestCaseParam.test_all[get_value1]",
+  "historyId" : "e7035c441ec304ee9742e0f75d4b824c",
+  "time" : {
+    "start" : 1571988058342,
+    "stop" : 1571988058386,
+    "duration" : 44
+  },
+  "description" : "\n        :param get_rd:\n        :param get_connect:\n        :param get_depend:\n        :param get_request:\n        :param get_value:\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    :param get_rd:\n    :param get_connect:\n    :param get_depend:\n    :param get_request:\n    :param get_value:\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-R9QPJ6C"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "7860-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "InterFaceAutoTest.TestCaseOperation"
+  }, {
+    "name" : "testClass",
+    "value" : "InterFaceAutoTest.TestCaseOperation"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestCaseParam.TestCaseParam.test_all[get_value1]"
+  }, {
+    "name" : "package",
+    "value" : "InterFaceAutoTest.TestCaseOperation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8622979c77c98641.json",
+  "parameterValues" : [ ]
+}

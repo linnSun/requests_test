@@ -1,0 +1,169 @@
+{
+  "uid" : "27b6a9303a0c5545",
+  "name" : "test_all[get_value4]",
+  "fullName" : "TestCaseParam.TestCaseParam#test_all",
+  "historyId" : "2c1c29a55a58cad7f275ee0ea92967af",
+  "time" : {
+    "start" : 1571993648126,
+    "stop" : 1571993648801,
+    "duration" : 675
+  },
+  "description" : "接口参数化",
+  "descriptionHtml" : "<p>接口参数化</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '\\r\\n<style>\\r\\n.freetips{text-align:center;margin-top: 15px;}\\r\\n.freetips a{background: #1E7ED0; font-size:15px;text...play:none;\">当前版本：免费版v12.9.0520</div>\\r\\n<script>layer.msg(\\'登录成功\\',{maxWidth:120});top.location.href=\"/crm/\";</script>' == {'text': '登录成功'}\n +  where '\\r\\n<style>\\r\\n.freetips{text-align:center;margin-top: 15px;}\\r\\n.freetips a{background: #1E7ED0; font-size:15px;text...play:none;\">当前版本：免费版v12.9.0520</div>\\r\\n<script>layer.msg(\\'登录成功\\',{maxWidth:120});top.location.href=\"/crm/\";</script>' = <InterFaceAutoTest.TestCaseOperation.TestCaseParam.TestCaseParam object at 0x000002A66A33E948>.get_actual",
+  "statusTrace" : "self = <InterFaceAutoTest.TestCaseOperation.TestCaseParam.TestCaseParam object at 0x000002A66A33E948>\nget_rd = <InterFaceAutoTest.DataOperation.Write_Excel.WriteExcel object at 0x000002A66A36B248>\nget_connect = <ApiTest.Crm_Connect_Data.Get_Conn object at 0x000002A66A37B3C8>\nget_depend = <InterFaceAutoTest.DependOperation.BusinessDependMethod.Business_Depend_Method object at 0x000002A66A3287C8>\nget_request = <InterFaceAutoTest.RequestOperation.RequestMethod.Request_Method object at 0x000002A66A328C48>\nget_value = ['Y', 'Y', 'POST', 'http://localhost:801/login/?action=login', {'Submit': '登录', 'company': 'lisi', 'uPassword': 'admin', 'uname': 'admin'}, 8, ...]\n\n    @allure.step(\"这是实现测试框架的参数化操作\")\n    @allure.description(\"接口参数化\")\n    @pytest.mark.parametrize(\"get_value\",[value for value in get_format_value()])\n    def test_all(self,get_rd,get_connect,get_depend,get_request,get_value):\n        \"\"\"\n        :param get_rd:\n        :param get_connect:\n        :param get_depend:\n        :param get_request:\n        :param get_value:\n        :return:\n        \"\"\"\n        get_expect=get_value[-1]\n        self.cookies = None\n        self.check_all(get_rd,get_connect,get_depend,get_request,*get_value[:-1])\n        # print(get_expect)\n        # print(\"实际结果是：\",self.get_actual)\n>       assert self.get_actual==get_expect\nE       assert '\\r\\n<style>\\r\\n.freetips{text-align:center;margin-top: 15px;}\\r\\n.freetips a{background: #1E7ED0; font-size:15px;text...play:none;\">当前版本：免费版v12.9.0520</div>\\r\\n<script>layer.msg(\\'登录成功\\',{maxWidth:120});top.location.href=\"/crm/\";</script>' == {'text': '登录成功'}\nE        +  where '\\r\\n<style>\\r\\n.freetips{text-align:center;margin-top: 15px;}\\r\\n.freetips a{background: #1E7ED0; font-size:15px;text...play:none;\">当前版本：免费版v12.9.0520</div>\\r\\n<script>layer.msg(\\'登录成功\\',{maxWidth:120});top.location.href=\"/crm/\";</script>' = <InterFaceAutoTest.TestCaseOperation.TestCaseParam.TestCaseParam object at 0x000002A66A33E948>.get_actual\n\nTestCaseParam.py:93: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_rd",
+    "time" : {
+      "start" : 1571993641609,
+      "stop" : 1571993641634,
+      "duration" : 25
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "get_depend",
+    "time" : {
+      "start" : 1571993648126,
+      "stop" : 1571993648126,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "get_request",
+    "time" : {
+      "start" : 1571993648126,
+      "stop" : 1571993648126,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "get_connect",
+    "time" : {
+      "start" : 1571993641634,
+      "stop" : 1571993641723,
+      "duration" : 89
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "接口参数化",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert '\\r\\n<style>\\r\\n.freetips{text-align:center;margin-top: 15px;}\\r\\n.freetips a{background: #1E7ED0; font-size:15px;text...play:none;\">当前版本：免费版v12.9.0520</div>\\r\\n<script>layer.msg(\\'登录成功\\',{maxWidth:120});top.location.href=\"/crm/\";</script>' == {'text': '登录成功'}\n +  where '\\r\\n<style>\\r\\n.freetips{text-align:center;margin-top: 15px;}\\r\\n.freetips a{background: #1E7ED0; font-size:15px;text...play:none;\">当前版本：免费版v12.9.0520</div>\\r\\n<script>layer.msg(\\'登录成功\\',{maxWidth:120});top.location.href=\"/crm/\";</script>' = <InterFaceAutoTest.TestCaseOperation.TestCaseParam.TestCaseParam object at 0x000002A66A33E948>.get_actual",
+    "statusTrace" : "self = <InterFaceAutoTest.TestCaseOperation.TestCaseParam.TestCaseParam object at 0x000002A66A33E948>\nget_rd = <InterFaceAutoTest.DataOperation.Write_Excel.WriteExcel object at 0x000002A66A36B248>\nget_connect = <ApiTest.Crm_Connect_Data.Get_Conn object at 0x000002A66A37B3C8>\nget_depend = <InterFaceAutoTest.DependOperation.BusinessDependMethod.Business_Depend_Method object at 0x000002A66A3287C8>\nget_request = <InterFaceAutoTest.RequestOperation.RequestMethod.Request_Method object at 0x000002A66A328C48>\nget_value = ['Y', 'Y', 'POST', 'http://localhost:801/login/?action=login', {'Submit': '登录', 'company': 'lisi', 'uPassword': 'admin', 'uname': 'admin'}, 8, ...]\n\n    @allure.step(\"这是实现测试框架的参数化操作\")\n    @allure.description(\"接口参数化\")\n    @pytest.mark.parametrize(\"get_value\",[value for value in get_format_value()])\n    def test_all(self,get_rd,get_connect,get_depend,get_request,get_value):\n        \"\"\"\n        :param get_rd:\n        :param get_connect:\n        :param get_depend:\n        :param get_request:\n        :param get_value:\n        :return:\n        \"\"\"\n        get_expect=get_value[-1]\n        self.cookies = None\n        self.check_all(get_rd,get_connect,get_depend,get_request,*get_value[:-1])\n        # print(get_expect)\n        # print(\"实际结果是：\",self.get_actual)\n>       assert self.get_actual==get_expect\nE       assert '\\r\\n<style>\\r\\n.freetips{text-align:center;margin-top: 15px;}\\r\\n.freetips a{background: #1E7ED0; font-size:15px;text...play:none;\">当前版本：免费版v12.9.0520</div>\\r\\n<script>layer.msg(\\'登录成功\\',{maxWidth:120});top.location.href=\"/crm/\";</script>' == {'text': '登录成功'}\nE        +  where '\\r\\n<style>\\r\\n.freetips{text-align:center;margin-top: 15px;}\\r\\n.freetips a{background: #1E7ED0; font-size:15px;text...play:none;\">当前版本：免费版v12.9.0520</div>\\r\\n<script>layer.msg(\\'登录成功\\',{maxWidth:120});top.location.href=\"/crm/\";</script>' = <InterFaceAutoTest.TestCaseOperation.TestCaseParam.TestCaseParam object at 0x000002A66A33E948>.get_actual\n\nTestCaseParam.py:93: AssertionError",
+    "steps" : [ {
+      "name" : "这是实现测试框架的参数化操作",
+      "time" : {
+        "start" : 1571993648127,
+        "stop" : 1571993648801,
+        "duration" : 674
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: assert '\\r\\n<style>\\r\\n.freetips{text-align:center;margin-top: 15px;}\\r\\n.freetips a{background: #1E7ED0; font-size:15px;text...play:none;\">当前版本：免费版v12.9.0520</div>\\r\\n<script>layer.msg(\\'登录成功\\',{maxWidth:120});top.location.href=\"/crm/\";</script>' == {'text': '登录成功'}\n +  where '\\r\\n<style>\\r\\n.freetips{text-align:center;margin-top: 15px;}\\r\\n.freetips a{background: #1E7ED0; font-size:15px;text...play:none;\">当前版本：免费版v12.9.0520</div>\\r\\n<script>layer.msg(\\'登录成功\\',{maxWidth:120});top.location.href=\"/crm/\";</script>' = <InterFaceAutoTest.TestCaseOperation.TestCaseParam.TestCaseParam object at 0x000002A66A33E948>.get_actual\n",
+      "statusTrace" : "  File \"c:\\users\\administrator\\pycharmprojects\\test0805\\venv\\lib\\site-packages\\allure_commons\\_allure.py\", line 157, in impl\n    return func(*a, **kw)\n  File \"C:\\Users\\Administrator\\PycharmProjects\\Test0805\\InterFaceAutoTest\\TestCaseOperation\\TestCaseParam.py\", line 93, in test_all\n    assert self.get_actual==get_expect\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "get_rd",
+        "value" : "<InterFaceAutoTest.DataOperation.Write_Excel.WriteExcel object at 0x000002A66A36B248>"
+      }, {
+        "name" : "get_connect",
+        "value" : "<ApiTest.Crm_Connect_Data.Get_Conn object at 0x000002A66A37B3C8>"
+      }, {
+        "name" : "get_depend",
+        "value" : "<InterFaceAutoTest.DependOperation.BusinessDependMethod.Business_Depend_Method object at 0x000002A66A3287C8>"
+      }, {
+        "name" : "get_request",
+        "value" : "<InterFaceAutoTest.RequestOperation.RequestMethod.Request_Method object at 0x000002A66A328C48>"
+      }, {
+        "name" : "get_value",
+        "value" : "['Y', 'Y', 'POST', 'http://localhost:801/login/?action=login', {'uname': 'admin', 'uPassword': 'admin', 'Submit': '登录'}, 8, {'text': '登录成功'}]"
+      } ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "TestCaseParam"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCaseParam"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-R9QPJ6C"
+  }, {
+    "name" : "thread",
+    "value" : "11652-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCaseParam"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "get_value",
+    "value" : "['Y', 'Y', 'POST', 'http://localhost:801/login/?action=login', {'uname': 'admin', 'uPassword': 'admin', 'Submit': '登录'}, 8, {'text': '登录成功'}]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "27b6a9303a0c5545.json",
+  "parameterValues" : [ "['Y', 'Y', 'POST', 'http://localhost:801/login/?action=login', {'uname': 'admin', 'uPassword': 'admin', 'Submit': '登录'}, 8, {'text': '登录成功'}]" ]
+}

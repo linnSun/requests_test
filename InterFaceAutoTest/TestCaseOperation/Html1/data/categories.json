@@ -1,0 +1,111 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert {'code': '2',...name': 'lisi'} == {'code': '2',...name': 'li12'}\n  Omitting 3 identical items, use -vv to show\n  Differing items:\n  {'username': 'lisi'} != {'username': 'li12'}\n  Use -v to get the full diff",
+      "children" : [ {
+        "name" : "test_all[get_value0]",
+        "uid" : "6519556db4c10327",
+        "parentUid" : "3922660a02a594f4fb3c4327dbbea3a0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1571993641725,
+          "stop" : 1571993641758,
+          "duration" : 33
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[None, 'Y', 'POST', 'http://127.0.0.1:7777/login/loginAction', {'username': 'lisi', 'password': '123456', 'submit': '提交'}, 3, {'code': '2', 'msg': '登录成功', 'username': 'li12', 'password': '123456'}]" ]
+      } ],
+      "uid" : "3922660a02a594f4fb3c4327dbbea3a0"
+    }, {
+      "name" : "AssertionError: assert '<!DOCTYPE html>\\r\\n<!--STATUS OK--><html> <head><meta http-equiv=content-type content=text/html;charset=utf-8><meta h...nbsp;äº¬ICPè¯\\x81030173å\\x8f·&nbsp; <img src=//www.baidu.com/img/gs.gif> </p> </div> </div> </div> </body> </html>\\r\\n' == {'text': '百度一下', 'title': '百度一下'}\n +  where '<!DOCTYPE html>\\r\\n<!--STATUS OK--><html> <head><meta http-equiv=content-type content=text/html;charset=utf-8><meta h...nbsp;äº¬ICPè¯\\x81030173å\\x8f·&nbsp; <img src=//www.baidu.com/img/gs.gif> </p> </div> </div> </div> </body> </html>\\r\\n' = <InterFaceAutoTest.TestCaseOperation.TestCaseParam.TestCaseParam object at 0x000002A66A356FC8>.get_actual",
+      "children" : [ {
+        "name" : "test_all[get_value2]",
+        "uid" : "bf88287c320fda90",
+        "parentUid" : "848588b8798c67a654a00d2af499a206",
+        "status" : "failed",
+        "time" : {
+          "start" : 1571993644911,
+          "stop" : 1571993648026,
+          "duration" : 3115
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[None, 'Y', 'GET', 'http://www.baidu.com', None, 5, {'text': '百度一下', 'title': '百度一下'}]" ]
+      } ],
+      "uid" : "848588b8798c67a654a00d2af499a206"
+    }, {
+      "name" : "AssertionError: assert {'code': '201..., 'status': 0} == {'code': 1, 'msg': '手机号已经存在'}\n  Differing items:\n  {'msg': '手机号码已被注册'} != {'msg': '手机号已经存在'}\n  {'code': '20110'} != {'code': 1}\n  Left contains 2 more items:\n  {'data': None, 'status': 0}\n  Use -v to get the full diff",
+      "children" : [ {
+        "name" : "test_all[get_value3]",
+        "uid" : "6b5d716ff3ad4821",
+        "parentUid" : "fd820139507e46de6734d596348d5bad",
+        "status" : "failed",
+        "time" : {
+          "start" : 1571993648036,
+          "stop" : 1571993648117,
+          "duration" : 81
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[None, 'Y', 'GET', 'http://120.77.247.164:8080/futureloan/mvc/api/member/register', {'mobilephone': 13677778991, 'pwd': 'zelin123', 'regname': 'zelin'}, 7, {'msg': '手机号已经存在', 'code': 1}]" ]
+      } ],
+      "uid" : "fd820139507e46de6734d596348d5bad"
+    }, {
+      "name" : "AssertionError: assert '\\r\\n<style>\\r\\n.freetips{text-align:center;margin-top: 15px;}\\r\\n.freetips a{background: #1E7ED0; font-size:15px;text...play:none;\">当前版本：免费版v12.9.0520</div>\\r\\n<script>layer.msg(\\'登录成功\\',{maxWidth:120});top.location.href=\"/crm/\";</script>' == {'text': '登录成功'}\n +  where '\\r\\n<style>\\r\\n.freetips{text-align:center;margin-top: 15px;}\\r\\n.freetips a{background: #1E7ED0; font-size:15px;text...play:none;\">当前版本：免费版v12.9.0520</div>\\r\\n<script>layer.msg(\\'登录成功\\',{maxWidth:120});top.location.href=\"/crm/\";</script>' = <InterFaceAutoTest.TestCaseOperation.TestCaseParam.TestCaseParam object at 0x000002A66A33E948>.get_actual",
+      "children" : [ {
+        "name" : "test_all[get_value4]",
+        "uid" : "27b6a9303a0c5545",
+        "parentUid" : "3135d1a05f7a7ecc7cd1b61bfcd903f6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1571993648126,
+          "stop" : 1571993648801,
+          "duration" : 675
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['Y', 'Y', 'POST', 'http://localhost:801/login/?action=login', {'uname': 'admin', 'uPassword': 'admin', 'Submit': '登录'}, 8, {'text': '登录成功'}]" ]
+      } ],
+      "uid" : "3135d1a05f7a7ecc7cd1b61bfcd903f6"
+    }, {
+      "name" : "AssertionError: assert '\\r\\n<style>\\r\\n.freetips{text-align:center;margin-top: 15px;}\\r\\n.freetips a{background: #1E7ED0; font-size:15px;text...t>\\r\\n<div style=\"display:none;\">当前版本：免费版v12.9.0520</div>\\r\\n<script>layer.msg(\\'帐号或密码不能为空\\',{maxWidth:180});</script>' == {'text': '帐号或密码错误'}\n +  where '\\r\\n<style>\\r\\n.freetips{text-align:center;margin-top: 15px;}\\r\\n.freetips a{background: #1E7ED0; font-size:15px;text...t>\\r\\n<div style=\"display:none;\">当前版本：免费版v12.9.0520</div>\\r\\n<script>layer.msg(\\'帐号或密码不能为空\\',{maxWidth:180});</script>' = <InterFaceAutoTest.TestCaseOperation.TestCaseParam.TestCaseParam object at 0x000002A66A33EF88>.get_actual",
+      "children" : [ {
+        "name" : "test_all[get_value5]",
+        "uid" : "ba0ee943e42a5bca",
+        "parentUid" : "8f6a02a467f7821f3e6a65cd11041858",
+        "status" : "failed",
+        "time" : {
+          "start" : 1571993648810,
+          "stop" : 1571993649162,
+          "duration" : 352
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[None, 'Y', 'POST', 'http://localhost:801/login/?action=login', {'uPassword': 'afwen', 'Submit': '登录'}, 9, {'text': '帐号或密码错误'}]" ]
+      } ],
+      "uid" : "8f6a02a467f7821f3e6a65cd11041858"
+    }, {
+      "name" : "AssertionError: assert \"<script>top.location.href='/login/';</script>\" == None\n +  where \"<script>top.location.href='/login/';</script>\" = <InterFaceAutoTest.TestCaseOperation.TestCaseParam.TestCaseParam object at 0x000002A66A3323C8>.get_actual",
+      "children" : [ {
+        "name" : "test_all[get_value6]",
+        "uid" : "491f4b784358f076",
+        "parentUid" : "f496d8bd9add1f3976d63d6331a12e22",
+        "status" : "failed",
+        "time" : {
+          "start" : 1571993649172,
+          "stop" : 1571993649877,
+          "duration" : 705
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['Y', 'Y', 'POST', 'http://localhost:801/crm/kehu_add_edit.asp?action=kehu&stype=saveadd&lailu=', {'company': '正午坑', 'mobile': '13438383838', 'user': '超级管理员23', 'Submit': '保存'}, 10, None]" ]
+      } ],
+      "uid" : "f496d8bd9add1f3976d63d6331a12e22"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

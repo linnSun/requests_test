@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "e0737ca720764e15ca8c0cd098f28609",
+    "name" : "InterFaceAutoTest.TestCaseOperation",
+    "statistic" : {
+      "failed" : 6,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 7
+    }
+  } ]
+}

@@ -1,0 +1,67 @@
+{
+  "uid" : "cc07b8b1a3874110",
+  "name" : "TestCaseParam.TestCaseParam.test_all[get_value5]",
+  "fullName" : "InterFaceAutoTest.TestCaseOperation.TestCaseParam.TestCaseParam.test_all[get_value5]",
+  "historyId" : "34c0483c40ffeb7a0bfac578db0082f2",
+  "time" : {
+    "start" : 1571988107661,
+    "stop" : 1571988108002,
+    "duration" : 341
+  },
+  "description" : "\n        :param get_rd:\n        :param get_connect:\n        :param get_depend:\n        :param get_request:\n        :param get_value:\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    :param get_rd:\n    :param get_connect:\n    :param get_depend:\n    :param get_request:\n    :param get_value:\n    :return:\n</code></pre>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '\\r\\n<style>\\r\\n.freetips{text-align:center;margin-top: 15px;}\\r\\n.freetips a{background: #1E7ED0; font-size:15px;text...t>\\r\\n<div style=\"display:none;\">当前版本：免费版v12.9.0520</div>\\r\\n<script>layer.msg(\\'帐号或密码不能为空\\',{maxWidth:180});</script>' == {'text': '帐号或密码错误'}\n +  where '\\r\\n<style>\\r\\n.freetips{text-align:center;margin-top: 15px;}\\r\\n.freetips a{background: #1E7ED0; font-size:15px;text...t>\\r\\n<div style=\"display:none;\">当前版本：免费版v12.9.0520</div>\\r\\n<script>layer.msg(\\'帐号或密码不能为空\\',{maxWidth:180});</script>' = <InterFaceAutoTest.TestCaseOperation.TestCaseParam.TestCaseParam object at 0x00000265F77C9D48>.get_actual",
+  "statusTrace" : "self = <InterFaceAutoTest.TestCaseOperation.TestCaseParam.TestCaseParam object at 0x00000265F77C9D48>\nget_rd = <InterFaceAutoTest.DataOperation.Write_Excel.WriteExcel object at 0x00000265F69F5B48>\nget_connect = <ApiTest.Crm_Connect_Data.Get_Conn object at 0x00000265F69DDE88>\nget_depend = <InterFaceAutoTest.DependOperation.BusinessDependMethod.Business_Depend_Method object at 0x00000265F77C7288>\nget_request = <InterFaceAutoTest.RequestOperation.RequestMethod.Request_Method object at 0x00000265F77C9E08>\nget_value = [None, 'Y', 'POST', 'http://localhost:801/login/?action=login', {'Submit': '登录', 'uPassword': 'afwen'}, 9, ...]\n\n    @pytest.mark.parametrize(\"get_value\",[value for value in get_format_value()])\n    def test_all(self,get_rd,get_connect,get_depend,get_request,get_value):\n        \"\"\"\n        :param get_rd:\n        :param get_connect:\n        :param get_depend:\n        :param get_request:\n        :param get_value:\n        :return:\n        \"\"\"\n        get_expect=get_value[-1]\n        self.cookies = None\n        self.check_all(get_rd,get_connect,get_depend,get_request,*get_value[:-1])\n        # print(get_expect)\n        # print(\"实际结果是：\",self.get_actual)\n>       assert self.get_actual==get_expect\nE       assert '\\r\\n<style>\\r\\n.freetips{text-align:center;margin-top: 15px;}\\r\\n.freetips a{background: #1E7ED0; font-size:15px;text...t>\\r\\n<div style=\"display:none;\">当前版本：免费版v12.9.0520</div>\\r\\n<script>layer.msg(\\'帐号或密码不能为空\\',{maxWidth:180});</script>' == {'text': '帐号或密码错误'}\nE        +  where '\\r\\n<style>\\r\\n.freetips{text-align:center;margin-top: 15px;}\\r\\n.freetips a{background: #1E7ED0; font-size:15px;text...t>\\r\\n<div style=\"display:none;\">当前版本：免费版v12.9.0520</div>\\r\\n<script>layer.msg(\\'帐号或密码不能为空\\',{maxWidth:180});</script>' = <InterFaceAutoTest.TestCaseOperation.TestCaseParam.TestCaseParam object at 0x00000265F77C9D48>.get_actual\n\nTestCaseParam.py:90: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-R9QPJ6C"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "7860-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "InterFaceAutoTest.TestCaseOperation"
+  }, {
+    "name" : "testClass",
+    "value" : "InterFaceAutoTest.TestCaseOperation"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestCaseParam.TestCaseParam.test_all[get_value5]"
+  }, {
+    "name" : "package",
+    "value" : "InterFaceAutoTest.TestCaseOperation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "cc07b8b1a3874110.json",
+  "parameterValues" : [ ]
+}

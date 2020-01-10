@@ -1,0 +1,57 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Fri Oct 25 15:20:58 CST 2019","Fri Oct 25 15:21:01 CST 2019","3114","","InterFaceAutoTest.TestCaseOperation","","InterFaceAutoTest.TestCaseOperation","TestCaseParam.TestCaseParam.test_all[get_value2]","TestCaseParam.TestCaseParam.test_all[get_value2]","
+        :param get_rd:
+        :param get_connect:
+        :param get_depend:
+        :param get_request:
+        :param get_value:
+        :return:
+        "
+"passed","Fri Oct 25 15:20:58 CST 2019","Fri Oct 25 15:20:58 CST 2019","44","","InterFaceAutoTest.TestCaseOperation","","InterFaceAutoTest.TestCaseOperation","TestCaseParam.TestCaseParam.test_all[get_value1]","TestCaseParam.TestCaseParam.test_all[get_value1]","
+        :param get_rd:
+        :param get_connect:
+        :param get_depend:
+        :param get_request:
+        :param get_value:
+        :return:
+        "
+"failed","Fri Oct 25 15:20:58 CST 2019","Fri Oct 25 15:20:58 CST 2019","205","","InterFaceAutoTest.TestCaseOperation","","InterFaceAutoTest.TestCaseOperation","TestCaseParam.TestCaseParam.test_all[get_value0]","TestCaseParam.TestCaseParam.test_all[get_value0]","
+        :param get_rd:
+        :param get_connect:
+        :param get_depend:
+        :param get_request:
+        :param get_value:
+        :return:
+        "
+"failed","Fri Oct 25 15:21:48 CST 2019","Fri Oct 25 15:21:48 CST 2019","830","","InterFaceAutoTest.TestCaseOperation","","InterFaceAutoTest.TestCaseOperation","TestCaseParam.TestCaseParam.test_all[get_value6]","TestCaseParam.TestCaseParam.test_all[get_value6]","
+        :param get_rd:
+        :param get_connect:
+        :param get_depend:
+        :param get_request:
+        :param get_value:
+        :return:
+        "
+"failed","Fri Oct 25 15:21:46 CST 2019","Fri Oct 25 15:21:47 CST 2019","786","","InterFaceAutoTest.TestCaseOperation","","InterFaceAutoTest.TestCaseOperation","TestCaseParam.TestCaseParam.test_all[get_value4]","TestCaseParam.TestCaseParam.test_all[get_value4]","
+        :param get_rd:
+        :param get_connect:
+        :param get_depend:
+        :param get_request:
+        :param get_value:
+        :return:
+        "
+"failed","Fri Oct 25 15:21:46 CST 2019","Fri Oct 25 15:21:46 CST 2019","46","","InterFaceAutoTest.TestCaseOperation","","InterFaceAutoTest.TestCaseOperation","TestCaseParam.TestCaseParam.test_all[get_value3]","TestCaseParam.TestCaseParam.test_all[get_value3]","
+        :param get_rd:
+        :param get_connect:
+        :param get_depend:
+        :param get_request:
+        :param get_value:
+        :return:
+        "
+"failed","Fri Oct 25 15:21:47 CST 2019","Fri Oct 25 15:21:48 CST 2019","341","","InterFaceAutoTest.TestCaseOperation","","InterFaceAutoTest.TestCaseOperation","TestCaseParam.TestCaseParam.test_all[get_value5]","TestCaseParam.TestCaseParam.test_all[get_value5]","
+        :param get_rd:
+        :param get_connect:
+        :param get_depend:
+        :param get_request:
+        :param get_value:
+        :return:
+        "

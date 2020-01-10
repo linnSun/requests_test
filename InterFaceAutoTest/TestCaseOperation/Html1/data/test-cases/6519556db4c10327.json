@@ -1,0 +1,169 @@
+{
+  "uid" : "6519556db4c10327",
+  "name" : "test_all[get_value0]",
+  "fullName" : "TestCaseParam.TestCaseParam#test_all",
+  "historyId" : "4188503e522ad2514460d1d715e7970c",
+  "time" : {
+    "start" : 1571993641725,
+    "stop" : 1571993641758,
+    "duration" : 33
+  },
+  "description" : "接口参数化",
+  "descriptionHtml" : "<p>接口参数化</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert {'code': '2',...name': 'lisi'} == {'code': '2',...name': 'li12'}\n  Omitting 3 identical items, use -vv to show\n  Differing items:\n  {'username': 'lisi'} != {'username': 'li12'}\n  Use -v to get the full diff",
+  "statusTrace" : "self = <InterFaceAutoTest.TestCaseOperation.TestCaseParam.TestCaseParam object at 0x000002A66A36C408>\nget_rd = <InterFaceAutoTest.DataOperation.Write_Excel.WriteExcel object at 0x000002A66A36B248>\nget_connect = <ApiTest.Crm_Connect_Data.Get_Conn object at 0x000002A66A37B3C8>\nget_depend = <InterFaceAutoTest.DependOperation.BusinessDependMethod.Business_Depend_Method object at 0x000002A66A36CF88>\nget_request = <InterFaceAutoTest.RequestOperation.RequestMethod.Request_Method object at 0x000002A66A36CA88>\nget_value = [None, 'Y', 'POST', 'http://127.0.0.1:7777/login/loginAction', {'password': '123456', 'submit': '提交', 'username': 'lisi'}, 3, ...]\n\n    @allure.step(\"这是实现测试框架的参数化操作\")\n    @allure.description(\"接口参数化\")\n    @pytest.mark.parametrize(\"get_value\",[value for value in get_format_value()])\n    def test_all(self,get_rd,get_connect,get_depend,get_request,get_value):\n        \"\"\"\n        :param get_rd:\n        :param get_connect:\n        :param get_depend:\n        :param get_request:\n        :param get_value:\n        :return:\n        \"\"\"\n        get_expect=get_value[-1]\n        self.cookies = None\n        self.check_all(get_rd,get_connect,get_depend,get_request,*get_value[:-1])\n        # print(get_expect)\n        # print(\"实际结果是：\",self.get_actual)\n>       assert self.get_actual==get_expect\nE       AssertionError: assert {'code': '2',...name': 'lisi'} == {'code': '2',...name': 'li12'}\nE         Omitting 3 identical items, use -vv to show\nE         Differing items:\nE         {'username': 'lisi'} != {'username': 'li12'}\nE         Use -v to get the full diff\n\nTestCaseParam.py:93: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_depend",
+    "time" : {
+      "start" : 1571993641723,
+      "stop" : 1571993641723,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "get_rd",
+    "time" : {
+      "start" : 1571993641609,
+      "stop" : 1571993641634,
+      "duration" : 25
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "get_connect",
+    "time" : {
+      "start" : 1571993641634,
+      "stop" : 1571993641723,
+      "duration" : 89
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "get_request",
+    "time" : {
+      "start" : 1571993641723,
+      "stop" : 1571993641723,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "接口参数化",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert {'code': '2',...name': 'lisi'} == {'code': '2',...name': 'li12'}\n  Omitting 3 identical items, use -vv to show\n  Differing items:\n  {'username': 'lisi'} != {'username': 'li12'}\n  Use -v to get the full diff",
+    "statusTrace" : "self = <InterFaceAutoTest.TestCaseOperation.TestCaseParam.TestCaseParam object at 0x000002A66A36C408>\nget_rd = <InterFaceAutoTest.DataOperation.Write_Excel.WriteExcel object at 0x000002A66A36B248>\nget_connect = <ApiTest.Crm_Connect_Data.Get_Conn object at 0x000002A66A37B3C8>\nget_depend = <InterFaceAutoTest.DependOperation.BusinessDependMethod.Business_Depend_Method object at 0x000002A66A36CF88>\nget_request = <InterFaceAutoTest.RequestOperation.RequestMethod.Request_Method object at 0x000002A66A36CA88>\nget_value = [None, 'Y', 'POST', 'http://127.0.0.1:7777/login/loginAction', {'password': '123456', 'submit': '提交', 'username': 'lisi'}, 3, ...]\n\n    @allure.step(\"这是实现测试框架的参数化操作\")\n    @allure.description(\"接口参数化\")\n    @pytest.mark.parametrize(\"get_value\",[value for value in get_format_value()])\n    def test_all(self,get_rd,get_connect,get_depend,get_request,get_value):\n        \"\"\"\n        :param get_rd:\n        :param get_connect:\n        :param get_depend:\n        :param get_request:\n        :param get_value:\n        :return:\n        \"\"\"\n        get_expect=get_value[-1]\n        self.cookies = None\n        self.check_all(get_rd,get_connect,get_depend,get_request,*get_value[:-1])\n        # print(get_expect)\n        # print(\"实际结果是：\",self.get_actual)\n>       assert self.get_actual==get_expect\nE       AssertionError: assert {'code': '2',...name': 'lisi'} == {'code': '2',...name': 'li12'}\nE         Omitting 3 identical items, use -vv to show\nE         Differing items:\nE         {'username': 'lisi'} != {'username': 'li12'}\nE         Use -v to get the full diff\n\nTestCaseParam.py:93: AssertionError",
+    "steps" : [ {
+      "name" : "这是实现测试框架的参数化操作",
+      "time" : {
+        "start" : 1571993641726,
+        "stop" : 1571993641758,
+        "duration" : 32
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: assert {'code': '2',...name': 'lisi'} == {'code': '2',...name': 'li12'}\n  Omitting 3 identical items, use -vv to show\n  Differing items:\n  {'username': 'lisi'} != {'username': 'li12'}\n  Use -v to get the full diff\n",
+      "statusTrace" : "  File \"c:\\users\\administrator\\pycharmprojects\\test0805\\venv\\lib\\site-packages\\allure_commons\\_allure.py\", line 157, in impl\n    return func(*a, **kw)\n  File \"C:\\Users\\Administrator\\PycharmProjects\\Test0805\\InterFaceAutoTest\\TestCaseOperation\\TestCaseParam.py\", line 93, in test_all\n    assert self.get_actual==get_expect\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "get_rd",
+        "value" : "<InterFaceAutoTest.DataOperation.Write_Excel.WriteExcel object at 0x000002A66A36B248>"
+      }, {
+        "name" : "get_connect",
+        "value" : "<ApiTest.Crm_Connect_Data.Get_Conn object at 0x000002A66A37B3C8>"
+      }, {
+        "name" : "get_depend",
+        "value" : "<InterFaceAutoTest.DependOperation.BusinessDependMethod.Business_Depend_Method object at 0x000002A66A36CF88>"
+      }, {
+        "name" : "get_request",
+        "value" : "<InterFaceAutoTest.RequestOperation.RequestMethod.Request_Method object at 0x000002A66A36CA88>"
+      }, {
+        "name" : "get_value",
+        "value" : "[None, 'Y', 'POST', 'http://127.0.0.1:7777/login/loginAction', {'username': 'lisi', 'password': '123456', 'submit': '提交'}, 3, {'code': '2', 'msg': '登录成功', 'username': 'li12', 'password': '123456'}]"
+      } ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "TestCaseParam"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCaseParam"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-R9QPJ6C"
+  }, {
+    "name" : "thread",
+    "value" : "11652-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCaseParam"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "get_value",
+    "value" : "[None, 'Y', 'POST', 'http://127.0.0.1:7777/login/loginAction', {'username': 'lisi', 'password': '123456', 'submit': '提交'}, 3, {'code': '2', 'msg': '登录成功', 'username': 'li12', 'password': '123456'}]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "6519556db4c10327.json",
+  "parameterValues" : [ "[None, 'Y', 'POST', 'http://127.0.0.1:7777/login/loginAction', {'username': 'lisi', 'password': '123456', 'submit': '提交'}, 3, {'code': '2', 'msg': '登录成功', 'username': 'li12', 'password': '123456'}]" ]
+}

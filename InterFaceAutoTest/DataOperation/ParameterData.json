@@ -1,0 +1,10 @@
+{
+  "Login_Fail_Data_1": {"username":"lis", "password":"123456", "submit":"提交"},
+  "Add_Biao_Data": {"memberId":83,"tittle":"借钱买婚房","amount":10000,"loanRate":24.0,"loanTerm":3,"loanDateType":2,"repaymemtWay":4,"biddingDays":7},
+  "Login_Success_Data": {"username":"lisi", "password":"123456", "submit":"提交"},
+  "Register_Data_1": {"mobilephone":13677778991, "pwd":"zelin123", "regname":"zelin"},
+  "Crm_Login_Data_2": {  "uPassword":"afwen", "Submit":"登录"},
+  "Crm_Login_Data_1": {   "uname":"admin","uPassword":"admin", "Submit":"登录"},
+  "Add_Customer_1": { "company": "正午坑", "mobile": "13438383838", "user": "超级管理员23", "Submit": "保存"}
+
+}

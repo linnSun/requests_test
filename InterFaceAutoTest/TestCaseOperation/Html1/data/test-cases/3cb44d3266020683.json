@@ -1,0 +1,159 @@
+{
+  "uid" : "3cb44d3266020683",
+  "name" : "test_all[get_value1]",
+  "fullName" : "TestCaseParam.TestCaseParam#test_all",
+  "historyId" : "3fe2139e6e74da000be7c9ade5576249",
+  "time" : {
+    "start" : 1571993641822,
+    "stop" : 1571993644905,
+    "duration" : 3083
+  },
+  "description" : "接口参数化",
+  "descriptionHtml" : "<p>接口参数化</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_depend",
+    "time" : {
+      "start" : 1571993641822,
+      "stop" : 1571993641822,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "get_request",
+    "time" : {
+      "start" : 1571993641822,
+      "stop" : 1571993641822,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "get_rd",
+    "time" : {
+      "start" : 1571993641609,
+      "stop" : 1571993641634,
+      "duration" : 25
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "get_connect",
+    "time" : {
+      "start" : 1571993641634,
+      "stop" : 1571993641723,
+      "duration" : 89
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "接口参数化",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "这是实现测试框架的参数化操作",
+      "time" : {
+        "start" : 1571993641823,
+        "stop" : 1571993644905,
+        "duration" : 3082
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "get_rd",
+        "value" : "<InterFaceAutoTest.DataOperation.Write_Excel.WriteExcel object at 0x000002A66A36B248>"
+      }, {
+        "name" : "get_connect",
+        "value" : "<ApiTest.Crm_Connect_Data.Get_Conn object at 0x000002A66A37B3C8>"
+      }, {
+        "name" : "get_depend",
+        "value" : "<InterFaceAutoTest.DependOperation.BusinessDependMethod.Business_Depend_Method object at 0x000002A66A33BBC8>"
+      }, {
+        "name" : "get_request",
+        "value" : "<InterFaceAutoTest.RequestOperation.RequestMethod.Request_Method object at 0x000002A66A332048>"
+      }, {
+        "name" : "get_value",
+        "value" : "[None, 'Y', 'GET', 'http://120.77.247.164:8080/futureloan/mvc/api/loan/add', {'memberId': 83, 'tittle': '借钱买婚房', 'amount': 10000, 'loanRate': 24.0, 'loanTerm': 3, 'loanDateType': 2, 'repaymemtWay': 4, 'biddingDays': 7}, 4, {'status': 0, 'code': '20103', 'data': None, 'msg': '所有参数不能为空'}]"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "TestCaseParam"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCaseParam"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-R9QPJ6C"
+  }, {
+    "name" : "thread",
+    "value" : "11652-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCaseParam"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "get_value",
+    "value" : "[None, 'Y', 'GET', 'http://120.77.247.164:8080/futureloan/mvc/api/loan/add', {'memberId': 83, 'tittle': '借钱买婚房', 'amount': 10000, 'loanRate': 24.0, 'loanTerm': 3, 'loanDateType': 2, 'repaymemtWay': 4, 'biddingDays': 7}, 4, {'status': 0, 'code': '20103', 'data': None, 'msg': '所有参数不能为空'}]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3cb44d3266020683.json",
+  "parameterValues" : [ "[None, 'Y', 'GET', 'http://120.77.247.164:8080/futureloan/mvc/api/loan/add', {'memberId': 83, 'tittle': '借钱买婚房', 'amount': 10000, 'loanRate': 24.0, 'loanTerm': 3, 'loanDateType': 2, 'repaymemtWay': 4, 'biddingDays': 7}, 4, {'status': 0, 'code': '20103', 'data': None, 'msg': '所有参数不能为空'}]" ]
+}

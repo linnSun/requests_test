@@ -1,0 +1,350 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1571988058135" stop="1571988108833">
+  <name>InterFaceAutoTest.TestCaseOperation</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1571988058135" status="failed" stop="1571988058340">
+      <description>
+        :param get_rd:
+        :param get_connect:
+        :param get_depend:
+        :param get_request:
+        :param get_value:
+        :return:
+        </description>
+      <name>TestCaseParam.TestCaseParam.test_all[get_value0]</name>
+      <failure>
+        <message>AssertionError: assert {'code': '2',...name': 'lisi'} == {'code': '2',...name': 'li12'}
+  Omitting 3 identical items, use -vv to show
+  Differing items:
+  {'username': 'lisi'} != {'username': 'li12'}
+  Use -v to get the full diff</message>
+        <stack-trace>self = &lt;InterFaceAutoTest.TestCaseOperation.TestCaseParam.TestCaseParam object at 0x00000265F69DDDC8&gt;
+get_rd = &lt;InterFaceAutoTest.DataOperation.Write_Excel.WriteExcel object at 0x00000265F69F5B48&gt;
+get_connect = &lt;ApiTest.Crm_Connect_Data.Get_Conn object at 0x00000265F69DDE88&gt;
+get_depend = &lt;InterFaceAutoTest.DependOperation.BusinessDependMethod.Business_Depend_Method object at 0x00000265F6AC4948&gt;
+get_request = &lt;InterFaceAutoTest.RequestOperation.RequestMethod.Request_Method object at 0x00000265F6AC4C08&gt;
+get_value = [None, 'Y', 'POST', 'http://127.0.0.1:7777/login/loginAction', {'password': '123456', 'submit': '提交', 'username': 'lisi'}, 3, ...]
+
+    @pytest.mark.parametrize("get_value",[value for value in get_format_value()])
+    def test_all(self,get_rd,get_connect,get_depend,get_request,get_value):
+        """
+        :param get_rd:
+        :param get_connect:
+        :param get_depend:
+        :param get_request:
+        :param get_value:
+        :return:
+        """
+        get_expect=get_value[-1]
+        self.cookies = None
+        self.check_all(get_rd,get_connect,get_depend,get_request,*get_value[:-1])
+        # print(get_expect)
+        # print("实际结果是：",self.get_actual)
+&gt;       assert self.get_actual==get_expect
+E       AssertionError: assert {'code': '2',...name': 'lisi'} == {'code': '2',...name': 'li12'}
+E         Omitting 3 identical items, use -vv to show
+E         Differing items:
+E         {'username': 'lisi'} != {'username': 'li12'}
+E         Use -v to get the full diff
+
+TestCaseParam.py:90: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="7860-MainThread"/>
+        <label name="host" value="DESKTOP-R9QPJ6C"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1571988058342" status="passed" stop="1571988058386">
+      <description>
+        :param get_rd:
+        :param get_connect:
+        :param get_depend:
+        :param get_request:
+        :param get_value:
+        :return:
+        </description>
+      <name>TestCaseParam.TestCaseParam.test_all[get_value1]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="7860-MainThread"/>
+        <label name="host" value="DESKTOP-R9QPJ6C"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1571988058387" status="failed" stop="1571988061501">
+      <description>
+        :param get_rd:
+        :param get_connect:
+        :param get_depend:
+        :param get_request:
+        :param get_value:
+        :return:
+        </description>
+      <name>TestCaseParam.TestCaseParam.test_all[get_value2]</name>
+      <failure>
+        <message>AssertionError: assert '&lt;!DOCTYPE html&gt;\r\n&lt;!--STATUS OK--&gt;&lt;html&gt; &lt;head&gt;&lt;meta http-equiv=content-type content=text/html;charset=utf-8&gt;&lt;meta h...nbsp;äº¬ICPè¯\x81030173å\x8f·&amp;nbsp; &lt;img src=//www.baidu.com/img/gs.gif&gt; &lt;/p&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;/body&gt; &lt;/html&gt;\r\n' == {'text': '百度一下', 'title': '百度一下'}
+ +  where '&lt;!DOCTYPE html&gt;\r\n&lt;!--STATUS OK--&gt;&lt;html&gt; &lt;head&gt;&lt;meta http-equiv=content-type content=text/html;charset=utf-8&gt;&lt;meta h...nbsp;äº¬ICPè¯\x81030173å\x8f·&amp;nbsp; &lt;img src=//www.baidu.com/img/gs.gif&gt; &lt;/p&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;/body&gt; &lt;/html&gt;\r\n' = &lt;InterFaceAutoTest.TestCaseOperation.TestCaseParam.TestCaseParam object at 0x00000265F6AE6388&gt;.get_actual</message>
+        <stack-trace>self = &lt;InterFaceAutoTest.TestCaseOperation.TestCaseParam.TestCaseParam object at 0x00000265F6AE6388&gt;
+get_rd = &lt;InterFaceAutoTest.DataOperation.Write_Excel.WriteExcel object at 0x00000265F69F5B48&gt;
+get_connect = &lt;ApiTest.Crm_Connect_Data.Get_Conn object at 0x00000265F69DDE88&gt;
+get_depend = &lt;InterFaceAutoTest.DependOperation.BusinessDependMethod.Business_Depend_Method object at 0x00000265F6AE4E48&gt;
+get_request = &lt;InterFaceAutoTest.RequestOperation.RequestMethod.Request_Method object at 0x00000265F6AE4388&gt;
+get_value = [None, 'Y', 'GET', 'http://www.baidu.com', None, 5, ...]
+
+    @pytest.mark.parametrize("get_value",[value for value in get_format_value()])
+    def test_all(self,get_rd,get_connect,get_depend,get_request,get_value):
+        """
+        :param get_rd:
+        :param get_connect:
+        :param get_depend:
+        :param get_request:
+        :param get_value:
+        :return:
+        """
+        get_expect=get_value[-1]
+        self.cookies = None
+        self.check_all(get_rd,get_connect,get_depend,get_request,*get_value[:-1])
+        # print(get_expect)
+        # print("实际结果是：",self.get_actual)
+&gt;       assert self.get_actual==get_expect
+E       AssertionError: assert '&lt;!DOCTYPE html&gt;\r\n&lt;!--STATUS OK--&gt;&lt;html&gt; &lt;head&gt;&lt;meta http-equiv=content-type content=text/html;charset=utf-8&gt;&lt;meta h...nbsp;äº¬ICPè¯\x81030173å\x8f·&amp;nbsp; &lt;img src=//www.baidu.com/img/gs.gif&gt; &lt;/p&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;/body&gt; &lt;/html&gt;\r\n' == {'text': '百度一下', 'title': '百度一下'}
+E        +  where '&lt;!DOCTYPE html&gt;\r\n&lt;!--STATUS OK--&gt;&lt;html&gt; &lt;head&gt;&lt;meta http-equiv=content-type content=text/html;charset=utf-8&gt;&lt;meta h...nbsp;äº¬ICPè¯\x81030173å\x8f·&amp;nbsp; &lt;img src=//www.baidu.com/img/gs.gif&gt; &lt;/p&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;/body&gt; &lt;/html&gt;\r\n' = &lt;InterFaceAutoTest.TestCaseOperation.TestCaseParam.TestCaseParam object at 0x00000265F6AE6388&gt;.get_actual
+
+TestCaseParam.py:90: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="7860-MainThread"/>
+        <label name="host" value="DESKTOP-R9QPJ6C"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1571988106827" status="failed" stop="1571988106873">
+      <description>
+        :param get_rd:
+        :param get_connect:
+        :param get_depend:
+        :param get_request:
+        :param get_value:
+        :return:
+        </description>
+      <name>TestCaseParam.TestCaseParam.test_all[get_value3]</name>
+      <failure>
+        <message>AssertionError: assert {'code': '201..., 'status': 0} == {'code': 1, 'msg': '手机号已经存在'}
+  Differing items:
+  {'msg': '手机号码已被注册'} != {'msg': '手机号已经存在'}
+  {'code': '20110'} != {'code': 1}
+  Left contains 2 more items:
+  {'data': None, 'status': 0}
+  Use -v to get the full diff</message>
+        <stack-trace>self = &lt;InterFaceAutoTest.TestCaseOperation.TestCaseParam.TestCaseParam object at 0x00000265F77C0B48&gt;
+get_rd = &lt;InterFaceAutoTest.DataOperation.Write_Excel.WriteExcel object at 0x00000265F69F5B48&gt;
+get_connect = &lt;ApiTest.Crm_Connect_Data.Get_Conn object at 0x00000265F69DDE88&gt;
+get_depend = &lt;InterFaceAutoTest.DependOperation.BusinessDependMethod.Business_Depend_Method object at 0x00000265F77B1608&gt;
+get_request = &lt;InterFaceAutoTest.RequestOperation.RequestMethod.Request_Method object at 0x00000265F77C02C8&gt;
+get_value = [None, 'Y', 'GET', 'http://120.77.247.164:8080/futureloan/mvc/api/member/register', {'mobilephone': 13677778991, 'pwd': 'zelin123', 'regname': 'zelin'}, 7, ...]
+
+    @pytest.mark.parametrize("get_value",[value for value in get_format_value()])
+    def test_all(self,get_rd,get_connect,get_depend,get_request,get_value):
+        """
+        :param get_rd:
+        :param get_connect:
+        :param get_depend:
+        :param get_request:
+        :param get_value:
+        :return:
+        """
+        get_expect=get_value[-1]
+        self.cookies = None
+        self.check_all(get_rd,get_connect,get_depend,get_request,*get_value[:-1])
+        # print(get_expect)
+        # print("实际结果是：",self.get_actual)
+&gt;       assert self.get_actual==get_expect
+E       AssertionError: assert {'code': '201..., 'status': 0} == {'code': 1, 'msg': '手机号已经存在'}
+E         Differing items:
+E         {'msg': '手机号码已被注册'} != {'msg': '手机号已经存在'}
+E         {'code': '20110'} != {'code': 1}
+E         Left contains 2 more items:
+E         {'data': None, 'status': 0}
+E         Use -v to get the full diff
+
+TestCaseParam.py:90: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="7860-MainThread"/>
+        <label name="host" value="DESKTOP-R9QPJ6C"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1571988106874" status="failed" stop="1571988107660">
+      <description>
+        :param get_rd:
+        :param get_connect:
+        :param get_depend:
+        :param get_request:
+        :param get_value:
+        :return:
+        </description>
+      <name>TestCaseParam.TestCaseParam.test_all[get_value4]</name>
+      <failure>
+        <message>AssertionError: assert '\r\n&lt;style&gt;\r\n.freetips{text-align:center;margin-top: 15px;}\r\n.freetips a{background: #1E7ED0; font-size:15px;text...play:none;"&gt;当前版本：免费版v12.9.0520&lt;/div&gt;\r\n&lt;script&gt;layer.msg(\'登录成功\',{maxWidth:120});top.location.href="/crm/";&lt;/script&gt;' == {'text': '登录成功'}
+ +  where '\r\n&lt;style&gt;\r\n.freetips{text-align:center;margin-top: 15px;}\r\n.freetips a{background: #1E7ED0; font-size:15px;text...play:none;"&gt;当前版本：免费版v12.9.0520&lt;/div&gt;\r\n&lt;script&gt;layer.msg(\'登录成功\',{maxWidth:120});top.location.href="/crm/";&lt;/script&gt;' = &lt;InterFaceAutoTest.TestCaseOperation.TestCaseParam.TestCaseParam object at 0x00000265F77B2F88&gt;.get_actual</message>
+        <stack-trace>self = &lt;InterFaceAutoTest.TestCaseOperation.TestCaseParam.TestCaseParam object at 0x00000265F77B2F88&gt;
+get_rd = &lt;InterFaceAutoTest.DataOperation.Write_Excel.WriteExcel object at 0x00000265F69F5B48&gt;
+get_connect = &lt;ApiTest.Crm_Connect_Data.Get_Conn object at 0x00000265F69DDE88&gt;
+get_depend = &lt;InterFaceAutoTest.DependOperation.BusinessDependMethod.Business_Depend_Method object at 0x00000265F77C2E88&gt;
+get_request = &lt;InterFaceAutoTest.RequestOperation.RequestMethod.Request_Method object at 0x00000265F77B2D88&gt;
+get_value = ['Y', 'Y', 'POST', 'http://localhost:801/login/?action=login', {'Submit': '登录', 'company': 'lisi', 'uPassword': 'admin', 'uname': 'admin'}, 8, ...]
+
+    @pytest.mark.parametrize("get_value",[value for value in get_format_value()])
+    def test_all(self,get_rd,get_connect,get_depend,get_request,get_value):
+        """
+        :param get_rd:
+        :param get_connect:
+        :param get_depend:
+        :param get_request:
+        :param get_value:
+        :return:
+        """
+        get_expect=get_value[-1]
+        self.cookies = None
+        self.check_all(get_rd,get_connect,get_depend,get_request,*get_value[:-1])
+        # print(get_expect)
+        # print("实际结果是：",self.get_actual)
+&gt;       assert self.get_actual==get_expect
+E       assert '\r\n&lt;style&gt;\r\n.freetips{text-align:center;margin-top: 15px;}\r\n.freetips a{background: #1E7ED0; font-size:15px;text...play:none;"&gt;当前版本：免费版v12.9.0520&lt;/div&gt;\r\n&lt;script&gt;layer.msg(\'登录成功\',{maxWidth:120});top.location.href="/crm/";&lt;/script&gt;' == {'text': '登录成功'}
+E        +  where '\r\n&lt;style&gt;\r\n.freetips{text-align:center;margin-top: 15px;}\r\n.freetips a{background: #1E7ED0; font-size:15px;text...play:none;"&gt;当前版本：免费版v12.9.0520&lt;/div&gt;\r\n&lt;script&gt;layer.msg(\'登录成功\',{maxWidth:120});top.location.href="/crm/";&lt;/script&gt;' = &lt;InterFaceAutoTest.TestCaseOperation.TestCaseParam.TestCaseParam object at 0x00000265F77B2F88&gt;.get_actual
+
+TestCaseParam.py:90: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="7860-MainThread"/>
+        <label name="host" value="DESKTOP-R9QPJ6C"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1571988107661" status="failed" stop="1571988108002">
+      <description>
+        :param get_rd:
+        :param get_connect:
+        :param get_depend:
+        :param get_request:
+        :param get_value:
+        :return:
+        </description>
+      <name>TestCaseParam.TestCaseParam.test_all[get_value5]</name>
+      <failure>
+        <message>AssertionError: assert '\r\n&lt;style&gt;\r\n.freetips{text-align:center;margin-top: 15px;}\r\n.freetips a{background: #1E7ED0; font-size:15px;text...t&gt;\r\n&lt;div style="display:none;"&gt;当前版本：免费版v12.9.0520&lt;/div&gt;\r\n&lt;script&gt;layer.msg(\'帐号或密码不能为空\',{maxWidth:180});&lt;/script&gt;' == {'text': '帐号或密码错误'}
+ +  where '\r\n&lt;style&gt;\r\n.freetips{text-align:center;margin-top: 15px;}\r\n.freetips a{background: #1E7ED0; font-size:15px;text...t&gt;\r\n&lt;div style="display:none;"&gt;当前版本：免费版v12.9.0520&lt;/div&gt;\r\n&lt;script&gt;layer.msg(\'帐号或密码不能为空\',{maxWidth:180});&lt;/script&gt;' = &lt;InterFaceAutoTest.TestCaseOperation.TestCaseParam.TestCaseParam object at 0x00000265F77C9D48&gt;.get_actual</message>
+        <stack-trace>self = &lt;InterFaceAutoTest.TestCaseOperation.TestCaseParam.TestCaseParam object at 0x00000265F77C9D48&gt;
+get_rd = &lt;InterFaceAutoTest.DataOperation.Write_Excel.WriteExcel object at 0x00000265F69F5B48&gt;
+get_connect = &lt;ApiTest.Crm_Connect_Data.Get_Conn object at 0x00000265F69DDE88&gt;
+get_depend = &lt;InterFaceAutoTest.DependOperation.BusinessDependMethod.Business_Depend_Method object at 0x00000265F77C7288&gt;
+get_request = &lt;InterFaceAutoTest.RequestOperation.RequestMethod.Request_Method object at 0x00000265F77C9E08&gt;
+get_value = [None, 'Y', 'POST', 'http://localhost:801/login/?action=login', {'Submit': '登录', 'uPassword': 'afwen'}, 9, ...]
+
+    @pytest.mark.parametrize("get_value",[value for value in get_format_value()])
+    def test_all(self,get_rd,get_connect,get_depend,get_request,get_value):
+        """
+        :param get_rd:
+        :param get_connect:
+        :param get_depend:
+        :param get_request:
+        :param get_value:
+        :return:
+        """
+        get_expect=get_value[-1]
+        self.cookies = None
+        self.check_all(get_rd,get_connect,get_depend,get_request,*get_value[:-1])
+        # print(get_expect)
+        # print("实际结果是：",self.get_actual)
+&gt;       assert self.get_actual==get_expect
+E       assert '\r\n&lt;style&gt;\r\n.freetips{text-align:center;margin-top: 15px;}\r\n.freetips a{background: #1E7ED0; font-size:15px;text...t&gt;\r\n&lt;div style="display:none;"&gt;当前版本：免费版v12.9.0520&lt;/div&gt;\r\n&lt;script&gt;layer.msg(\'帐号或密码不能为空\',{maxWidth:180});&lt;/script&gt;' == {'text': '帐号或密码错误'}
+E        +  where '\r\n&lt;style&gt;\r\n.freetips{text-align:center;margin-top: 15px;}\r\n.freetips a{background: #1E7ED0; font-size:15px;text...t&gt;\r\n&lt;div style="display:none;"&gt;当前版本：免费版v12.9.0520&lt;/div&gt;\r\n&lt;script&gt;layer.msg(\'帐号或密码不能为空\',{maxWidth:180});&lt;/script&gt;' = &lt;InterFaceAutoTest.TestCaseOperation.TestCaseParam.TestCaseParam object at 0x00000265F77C9D48&gt;.get_actual
+
+TestCaseParam.py:90: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="7860-MainThread"/>
+        <label name="host" value="DESKTOP-R9QPJ6C"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1571988108003" status="failed" stop="1571988108833">
+      <description>
+        :param get_rd:
+        :param get_connect:
+        :param get_depend:
+        :param get_request:
+        :param get_value:
+        :return:
+        </description>
+      <name>TestCaseParam.TestCaseParam.test_all[get_value6]</name>
+      <failure>
+        <message>AssertionError: assert "&lt;script&gt;top.location.href='/login/';&lt;/script&gt;" == None
+ +  where "&lt;script&gt;top.location.href='/login/';&lt;/script&gt;" = &lt;InterFaceAutoTest.TestCaseOperation.TestCaseParam.TestCaseParam object at 0x00000265F77D1508&gt;.get_actual</message>
+        <stack-trace>self = &lt;InterFaceAutoTest.TestCaseOperation.TestCaseParam.TestCaseParam object at 0x00000265F77D1508&gt;
+get_rd = &lt;InterFaceAutoTest.DataOperation.Write_Excel.WriteExcel object at 0x00000265F69F5B48&gt;
+get_connect = &lt;ApiTest.Crm_Connect_Data.Get_Conn object at 0x00000265F69DDE88&gt;
+get_depend = &lt;InterFaceAutoTest.DependOperation.BusinessDependMethod.Business_Depend_Method object at 0x00000265F77D1488&gt;
+get_request = &lt;InterFaceAutoTest.RequestOperation.RequestMethod.Request_Method object at 0x00000265F77C7C48&gt;
+get_value = ['Y', 'Y', 'POST', 'http://localhost:801/crm/kehu_add_edit.asp?action=kehu&amp;stype=saveadd&amp;lailu=', {'Submit': '保存', 'company': 'lisi', 'mobile': '13438383838', 'user': '超级管理员23'}, 10, ...]
+
+    @pytest.mark.parametrize("get_value",[value for value in get_format_value()])
+    def test_all(self,get_rd,get_connect,get_depend,get_request,get_value):
+        """
+        :param get_rd:
+        :param get_connect:
+        :param get_depend:
+        :param get_request:
+        :param get_value:
+        :return:
+        """
+        get_expect=get_value[-1]
+        self.cookies = None
+        self.check_all(get_rd,get_connect,get_depend,get_request,*get_value[:-1])
+        # print(get_expect)
+        # print("实际结果是：",self.get_actual)
+&gt;       assert self.get_actual==get_expect
+E       assert "&lt;script&gt;top.location.href='/login/';&lt;/script&gt;" == None
+E        +  where "&lt;script&gt;top.location.href='/login/';&lt;/script&gt;" = &lt;InterFaceAutoTest.TestCaseOperation.TestCaseParam.TestCaseParam object at 0x00000265F77D1508&gt;.get_actual
+
+TestCaseParam.py:90: AssertionError</stack-trace>
+      </failure>
+      <attachments>
+        <attachment source="807b0783-74a7-49a6-a2fd-bd2728879714-attachment.txt" title="Captured stdout call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="7860-MainThread"/>
+        <label name="host" value="DESKTOP-R9QPJ6C"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

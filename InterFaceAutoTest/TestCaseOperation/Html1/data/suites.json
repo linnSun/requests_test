@@ -1,0 +1,104 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "TestCaseParam",
+    "children" : [ {
+      "name" : "TestCaseParam",
+      "children" : [ {
+        "name" : "test_all[get_value0]",
+        "uid" : "6519556db4c10327",
+        "parentUid" : "470fe38943f3c0a93da1a02526576556",
+        "status" : "failed",
+        "time" : {
+          "start" : 1571993641725,
+          "stop" : 1571993641758,
+          "duration" : 33
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[None, 'Y', 'POST', 'http://127.0.0.1:7777/login/loginAction', {'username': 'lisi', 'password': '123456', 'submit': '提交'}, 3, {'code': '2', 'msg': '登录成功', 'username': 'li12', 'password': '123456'}]" ]
+      }, {
+        "name" : "test_all[get_value1]",
+        "uid" : "3cb44d3266020683",
+        "parentUid" : "470fe38943f3c0a93da1a02526576556",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571993641822,
+          "stop" : 1571993644905,
+          "duration" : 3083
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[None, 'Y', 'GET', 'http://120.77.247.164:8080/futureloan/mvc/api/loan/add', {'memberId': 83, 'tittle': '借钱买婚房', 'amount': 10000, 'loanRate': 24.0, 'loanTerm': 3, 'loanDateType': 2, 'repaymemtWay': 4, 'biddingDays': 7}, 4, {'status': 0, 'code': '20103', 'data': None, 'msg': '所有参数不能为空'}]" ]
+      }, {
+        "name" : "test_all[get_value2]",
+        "uid" : "bf88287c320fda90",
+        "parentUid" : "470fe38943f3c0a93da1a02526576556",
+        "status" : "failed",
+        "time" : {
+          "start" : 1571993644911,
+          "stop" : 1571993648026,
+          "duration" : 3115
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[None, 'Y', 'GET', 'http://www.baidu.com', None, 5, {'text': '百度一下', 'title': '百度一下'}]" ]
+      }, {
+        "name" : "test_all[get_value3]",
+        "uid" : "6b5d716ff3ad4821",
+        "parentUid" : "470fe38943f3c0a93da1a02526576556",
+        "status" : "failed",
+        "time" : {
+          "start" : 1571993648036,
+          "stop" : 1571993648117,
+          "duration" : 81
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[None, 'Y', 'GET', 'http://120.77.247.164:8080/futureloan/mvc/api/member/register', {'mobilephone': 13677778991, 'pwd': 'zelin123', 'regname': 'zelin'}, 7, {'msg': '手机号已经存在', 'code': 1}]" ]
+      }, {
+        "name" : "test_all[get_value4]",
+        "uid" : "27b6a9303a0c5545",
+        "parentUid" : "470fe38943f3c0a93da1a02526576556",
+        "status" : "failed",
+        "time" : {
+          "start" : 1571993648126,
+          "stop" : 1571993648801,
+          "duration" : 675
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['Y', 'Y', 'POST', 'http://localhost:801/login/?action=login', {'uname': 'admin', 'uPassword': 'admin', 'Submit': '登录'}, 8, {'text': '登录成功'}]" ]
+      }, {
+        "name" : "test_all[get_value5]",
+        "uid" : "ba0ee943e42a5bca",
+        "parentUid" : "470fe38943f3c0a93da1a02526576556",
+        "status" : "failed",
+        "time" : {
+          "start" : 1571993648810,
+          "stop" : 1571993649162,
+          "duration" : 352
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[None, 'Y', 'POST', 'http://localhost:801/login/?action=login', {'uPassword': 'afwen', 'Submit': '登录'}, 9, {'text': '帐号或密码错误'}]" ]
+      }, {
+        "name" : "test_all[get_value6]",
+        "uid" : "491f4b784358f076",
+        "parentUid" : "470fe38943f3c0a93da1a02526576556",
+        "status" : "failed",
+        "time" : {
+          "start" : 1571993649172,
+          "stop" : 1571993649877,
+          "duration" : 705
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['Y', 'Y', 'POST', 'http://localhost:801/crm/kehu_add_edit.asp?action=kehu&stype=saveadd&lailu=', {'company': '正午坑', 'mobile': '13438383838', 'user': '超级管理员23', 'Submit': '保存'}, 10, None]" ]
+      } ],
+      "uid" : "470fe38943f3c0a93da1a02526576556"
+    } ],
+    "uid" : "80a74a7f3652e1068f44a8bd3ab130c6"
+  } ]
+}

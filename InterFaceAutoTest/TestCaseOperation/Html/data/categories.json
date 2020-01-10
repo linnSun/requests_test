@@ -1,0 +1,111 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert {'code': '2',...name': 'lisi'} == {'code': '2',...name': 'li12'}\n  Omitting 3 identical items, use -vv to show\n  Differing items:\n  {'username': 'lisi'} != {'username': 'li12'}\n  Use -v to get the full diff",
+      "children" : [ {
+        "name" : "TestCaseParam.TestCaseParam.test_all[get_value0]",
+        "uid" : "6d32929ec1ed0a1b",
+        "parentUid" : "3922660a02a594f4fb3c4327dbbea3a0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1571988058135,
+          "stop" : 1571988058340,
+          "duration" : 205
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3922660a02a594f4fb3c4327dbbea3a0"
+    }, {
+      "name" : "AssertionError: assert '<!DOCTYPE html>\\r\\n<!--STATUS OK--><html> <head><meta http-equiv=content-type content=text/html;charset=utf-8><meta h...nbsp;äº¬ICPè¯\\x81030173å\\x8f·&nbsp; <img src=//www.baidu.com/img/gs.gif> </p> </div> </div> </div> </body> </html>\\r\\n' == {'text': '百度一下', 'title': '百度一下'}\n +  where '<!DOCTYPE html>\\r\\n<!--STATUS OK--><html> <head><meta http-equiv=content-type content=text/html;charset=utf-8><meta h...nbsp;äº¬ICPè¯\\x81030173å\\x8f·&nbsp; <img src=//www.baidu.com/img/gs.gif> </p> </div> </div> </div> </body> </html>\\r\\n' = <InterFaceAutoTest.TestCaseOperation.TestCaseParam.TestCaseParam object at 0x00000265F6AE6388>.get_actual",
+      "children" : [ {
+        "name" : "TestCaseParam.TestCaseParam.test_all[get_value2]",
+        "uid" : "86582388d0c4ef68",
+        "parentUid" : "d7aeb52c532bec1e0a4972ce40998eb7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1571988058387,
+          "stop" : 1571988061501,
+          "duration" : 3114
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d7aeb52c532bec1e0a4972ce40998eb7"
+    }, {
+      "name" : "AssertionError: assert {'code': '201..., 'status': 0} == {'code': 1, 'msg': '手机号已经存在'}\n  Differing items:\n  {'msg': '手机号码已被注册'} != {'msg': '手机号已经存在'}\n  {'code': '20110'} != {'code': 1}\n  Left contains 2 more items:\n  {'data': None, 'status': 0}\n  Use -v to get the full diff",
+      "children" : [ {
+        "name" : "TestCaseParam.TestCaseParam.test_all[get_value3]",
+        "uid" : "3e45717ec0d2926",
+        "parentUid" : "fd820139507e46de6734d596348d5bad",
+        "status" : "failed",
+        "time" : {
+          "start" : 1571988106827,
+          "stop" : 1571988106873,
+          "duration" : 46
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fd820139507e46de6734d596348d5bad"
+    }, {
+      "name" : "AssertionError: assert '\\r\\n<style>\\r\\n.freetips{text-align:center;margin-top: 15px;}\\r\\n.freetips a{background: #1E7ED0; font-size:15px;text...play:none;\">当前版本：免费版v12.9.0520</div>\\r\\n<script>layer.msg(\\'登录成功\\',{maxWidth:120});top.location.href=\"/crm/\";</script>' == {'text': '登录成功'}\n +  where '\\r\\n<style>\\r\\n.freetips{text-align:center;margin-top: 15px;}\\r\\n.freetips a{background: #1E7ED0; font-size:15px;text...play:none;\">当前版本：免费版v12.9.0520</div>\\r\\n<script>layer.msg(\\'登录成功\\',{maxWidth:120});top.location.href=\"/crm/\";</script>' = <InterFaceAutoTest.TestCaseOperation.TestCaseParam.TestCaseParam object at 0x00000265F77B2F88>.get_actual",
+      "children" : [ {
+        "name" : "TestCaseParam.TestCaseParam.test_all[get_value4]",
+        "uid" : "d32fb1d3a09e1665",
+        "parentUid" : "12acd53521d974be27f17a0c3a05e71e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1571988106874,
+          "stop" : 1571988107660,
+          "duration" : 786
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "12acd53521d974be27f17a0c3a05e71e"
+    }, {
+      "name" : "AssertionError: assert '\\r\\n<style>\\r\\n.freetips{text-align:center;margin-top: 15px;}\\r\\n.freetips a{background: #1E7ED0; font-size:15px;text...t>\\r\\n<div style=\"display:none;\">当前版本：免费版v12.9.0520</div>\\r\\n<script>layer.msg(\\'帐号或密码不能为空\\',{maxWidth:180});</script>' == {'text': '帐号或密码错误'}\n +  where '\\r\\n<style>\\r\\n.freetips{text-align:center;margin-top: 15px;}\\r\\n.freetips a{background: #1E7ED0; font-size:15px;text...t>\\r\\n<div style=\"display:none;\">当前版本：免费版v12.9.0520</div>\\r\\n<script>layer.msg(\\'帐号或密码不能为空\\',{maxWidth:180});</script>' = <InterFaceAutoTest.TestCaseOperation.TestCaseParam.TestCaseParam object at 0x00000265F77C9D48>.get_actual",
+      "children" : [ {
+        "name" : "TestCaseParam.TestCaseParam.test_all[get_value5]",
+        "uid" : "cc07b8b1a3874110",
+        "parentUid" : "e905b92b673e4a62a8904bd4428de9f7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1571988107661,
+          "stop" : 1571988108002,
+          "duration" : 341
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e905b92b673e4a62a8904bd4428de9f7"
+    }, {
+      "name" : "AssertionError: assert \"<script>top.location.href='/login/';</script>\" == None\n +  where \"<script>top.location.href='/login/';</script>\" = <InterFaceAutoTest.TestCaseOperation.TestCaseParam.TestCaseParam object at 0x00000265F77D1508>.get_actual",
+      "children" : [ {
+        "name" : "TestCaseParam.TestCaseParam.test_all[get_value6]",
+        "uid" : "fe4315d483075c13",
+        "parentUid" : "6d02f5fd09da5b730bede0b28e3e498d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1571988108003,
+          "stop" : 1571988108833,
+          "duration" : 830
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6d02f5fd09da5b730bede0b28e3e498d"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

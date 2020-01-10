@@ -1,0 +1,85 @@
+{
+  "uid" : "fe4315d483075c13",
+  "name" : "TestCaseParam.TestCaseParam.test_all[get_value6]",
+  "fullName" : "InterFaceAutoTest.TestCaseOperation.TestCaseParam.TestCaseParam.test_all[get_value6]",
+  "historyId" : "7a5cf43c39b6301653f73ed50bf87c9f",
+  "time" : {
+    "start" : 1571988108003,
+    "stop" : 1571988108833,
+    "duration" : 830
+  },
+  "description" : "\n        :param get_rd:\n        :param get_connect:\n        :param get_depend:\n        :param get_request:\n        :param get_value:\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    :param get_rd:\n    :param get_connect:\n    :param get_depend:\n    :param get_request:\n    :param get_value:\n    :return:\n</code></pre>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert \"<script>top.location.href='/login/';</script>\" == None\n +  where \"<script>top.location.href='/login/';</script>\" = <InterFaceAutoTest.TestCaseOperation.TestCaseParam.TestCaseParam object at 0x00000265F77D1508>.get_actual",
+  "statusTrace" : "self = <InterFaceAutoTest.TestCaseOperation.TestCaseParam.TestCaseParam object at 0x00000265F77D1508>\nget_rd = <InterFaceAutoTest.DataOperation.Write_Excel.WriteExcel object at 0x00000265F69F5B48>\nget_connect = <ApiTest.Crm_Connect_Data.Get_Conn object at 0x00000265F69DDE88>\nget_depend = <InterFaceAutoTest.DependOperation.BusinessDependMethod.Business_Depend_Method object at 0x00000265F77D1488>\nget_request = <InterFaceAutoTest.RequestOperation.RequestMethod.Request_Method object at 0x00000265F77C7C48>\nget_value = ['Y', 'Y', 'POST', 'http://localhost:801/crm/kehu_add_edit.asp?action=kehu&stype=saveadd&lailu=', {'Submit': '保存', 'company': 'lisi', 'mobile': '13438383838', 'user': '超级管理员23'}, 10, ...]\n\n    @pytest.mark.parametrize(\"get_value\",[value for value in get_format_value()])\n    def test_all(self,get_rd,get_connect,get_depend,get_request,get_value):\n        \"\"\"\n        :param get_rd:\n        :param get_connect:\n        :param get_depend:\n        :param get_request:\n        :param get_value:\n        :return:\n        \"\"\"\n        get_expect=get_value[-1]\n        self.cookies = None\n        self.check_all(get_rd,get_connect,get_depend,get_request,*get_value[:-1])\n        # print(get_expect)\n        # print(\"实际结果是：\",self.get_actual)\n>       assert self.get_actual==get_expect\nE       assert \"<script>top.location.href='/login/';</script>\" == None\nE        +  where \"<script>top.location.href='/login/';</script>\" = <InterFaceAutoTest.TestCaseOperation.TestCaseParam.TestCaseParam object at 0x00000265F77D1508>.get_actual\n\nTestCaseParam.py:90: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert \"<script>top.location.href='/login/';</script>\" == None\n +  where \"<script>top.location.href='/login/';</script>\" = <InterFaceAutoTest.TestCaseOperation.TestCaseParam.TestCaseParam object at 0x00000265F77D1508>.get_actual",
+    "statusTrace" : "self = <InterFaceAutoTest.TestCaseOperation.TestCaseParam.TestCaseParam object at 0x00000265F77D1508>\nget_rd = <InterFaceAutoTest.DataOperation.Write_Excel.WriteExcel object at 0x00000265F69F5B48>\nget_connect = <ApiTest.Crm_Connect_Data.Get_Conn object at 0x00000265F69DDE88>\nget_depend = <InterFaceAutoTest.DependOperation.BusinessDependMethod.Business_Depend_Method object at 0x00000265F77D1488>\nget_request = <InterFaceAutoTest.RequestOperation.RequestMethod.Request_Method object at 0x00000265F77C7C48>\nget_value = ['Y', 'Y', 'POST', 'http://localhost:801/crm/kehu_add_edit.asp?action=kehu&stype=saveadd&lailu=', {'Submit': '保存', 'company': 'lisi', 'mobile': '13438383838', 'user': '超级管理员23'}, 10, ...]\n\n    @pytest.mark.parametrize(\"get_value\",[value for value in get_format_value()])\n    def test_all(self,get_rd,get_connect,get_depend,get_request,get_value):\n        \"\"\"\n        :param get_rd:\n        :param get_connect:\n        :param get_depend:\n        :param get_request:\n        :param get_value:\n        :return:\n        \"\"\"\n        get_expect=get_value[-1]\n        self.cookies = None\n        self.check_all(get_rd,get_connect,get_depend,get_request,*get_value[:-1])\n        # print(get_expect)\n        # print(\"实际结果是：\",self.get_actual)\n>       assert self.get_actual==get_expect\nE       assert \"<script>top.location.href='/login/';</script>\" == None\nE        +  where \"<script>top.location.href='/login/';</script>\" = <InterFaceAutoTest.TestCaseOperation.TestCaseParam.TestCaseParam object at 0x00000265F77D1508>.get_actual\n\nTestCaseParam.py:90: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b07327770b848ad0",
+      "name" : "Captured stdout call",
+      "source" : "b07327770b848ad0.txt",
+      "type" : "text/plain",
+      "size" : 42
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-R9QPJ6C"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "7860-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "InterFaceAutoTest.TestCaseOperation"
+  }, {
+    "name" : "testClass",
+    "value" : "InterFaceAutoTest.TestCaseOperation"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestCaseParam.TestCaseParam.test_all[get_value6]"
+  }, {
+    "name" : "package",
+    "value" : "InterFaceAutoTest.TestCaseOperation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "fe4315d483075c13.json",
+  "parameterValues" : [ ]
+}

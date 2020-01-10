@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "80a74a7f3652e1068f44a8bd3ab130c6",
+    "name" : "TestCaseParam",
+    "statistic" : {
+      "failed" : 6,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 7
+    }
+  } ]
+}

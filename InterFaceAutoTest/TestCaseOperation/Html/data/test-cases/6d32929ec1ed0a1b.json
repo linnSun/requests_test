@@ -1,0 +1,67 @@
+{
+  "uid" : "6d32929ec1ed0a1b",
+  "name" : "TestCaseParam.TestCaseParam.test_all[get_value0]",
+  "fullName" : "InterFaceAutoTest.TestCaseOperation.TestCaseParam.TestCaseParam.test_all[get_value0]",
+  "historyId" : "9ab43edc98c7a8bc5b8b1317d1dc77e4",
+  "time" : {
+    "start" : 1571988058135,
+    "stop" : 1571988058340,
+    "duration" : 205
+  },
+  "description" : "\n        :param get_rd:\n        :param get_connect:\n        :param get_depend:\n        :param get_request:\n        :param get_value:\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    :param get_rd:\n    :param get_connect:\n    :param get_depend:\n    :param get_request:\n    :param get_value:\n    :return:\n</code></pre>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert {'code': '2',...name': 'lisi'} == {'code': '2',...name': 'li12'}\n  Omitting 3 identical items, use -vv to show\n  Differing items:\n  {'username': 'lisi'} != {'username': 'li12'}\n  Use -v to get the full diff",
+  "statusTrace" : "self = <InterFaceAutoTest.TestCaseOperation.TestCaseParam.TestCaseParam object at 0x00000265F69DDDC8>\nget_rd = <InterFaceAutoTest.DataOperation.Write_Excel.WriteExcel object at 0x00000265F69F5B48>\nget_connect = <ApiTest.Crm_Connect_Data.Get_Conn object at 0x00000265F69DDE88>\nget_depend = <InterFaceAutoTest.DependOperation.BusinessDependMethod.Business_Depend_Method object at 0x00000265F6AC4948>\nget_request = <InterFaceAutoTest.RequestOperation.RequestMethod.Request_Method object at 0x00000265F6AC4C08>\nget_value = [None, 'Y', 'POST', 'http://127.0.0.1:7777/login/loginAction', {'password': '123456', 'submit': '提交', 'username': 'lisi'}, 3, ...]\n\n    @pytest.mark.parametrize(\"get_value\",[value for value in get_format_value()])\n    def test_all(self,get_rd,get_connect,get_depend,get_request,get_value):\n        \"\"\"\n        :param get_rd:\n        :param get_connect:\n        :param get_depend:\n        :param get_request:\n        :param get_value:\n        :return:\n        \"\"\"\n        get_expect=get_value[-1]\n        self.cookies = None\n        self.check_all(get_rd,get_connect,get_depend,get_request,*get_value[:-1])\n        # print(get_expect)\n        # print(\"实际结果是：\",self.get_actual)\n>       assert self.get_actual==get_expect\nE       AssertionError: assert {'code': '2',...name': 'lisi'} == {'code': '2',...name': 'li12'}\nE         Omitting 3 identical items, use -vv to show\nE         Differing items:\nE         {'username': 'lisi'} != {'username': 'li12'}\nE         Use -v to get the full diff\n\nTestCaseParam.py:90: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-R9QPJ6C"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "7860-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "InterFaceAutoTest.TestCaseOperation"
+  }, {
+    "name" : "testClass",
+    "value" : "InterFaceAutoTest.TestCaseOperation"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestCaseParam.TestCaseParam.test_all[get_value0]"
+  }, {
+    "name" : "package",
+    "value" : "InterFaceAutoTest.TestCaseOperation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "6d32929ec1ed0a1b.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,67 @@
+{
+  "uid" : "86582388d0c4ef68",
+  "name" : "TestCaseParam.TestCaseParam.test_all[get_value2]",
+  "fullName" : "InterFaceAutoTest.TestCaseOperation.TestCaseParam.TestCaseParam.test_all[get_value2]",
+  "historyId" : "9440bf747d275d1d8f8b352e8a98020d",
+  "time" : {
+    "start" : 1571988058387,
+    "stop" : 1571988061501,
+    "duration" : 3114
+  },
+  "description" : "\n        :param get_rd:\n        :param get_connect:\n        :param get_depend:\n        :param get_request:\n        :param get_value:\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    :param get_rd:\n    :param get_connect:\n    :param get_depend:\n    :param get_request:\n    :param get_value:\n    :return:\n</code></pre>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '<!DOCTYPE html>\\r\\n<!--STATUS OK--><html> <head><meta http-equiv=content-type content=text/html;charset=utf-8><meta h...nbsp;äº¬ICPè¯\\x81030173å\\x8f·&nbsp; <img src=//www.baidu.com/img/gs.gif> </p> </div> </div> </div> </body> </html>\\r\\n' == {'text': '百度一下', 'title': '百度一下'}\n +  where '<!DOCTYPE html>\\r\\n<!--STATUS OK--><html> <head><meta http-equiv=content-type content=text/html;charset=utf-8><meta h...nbsp;äº¬ICPè¯\\x81030173å\\x8f·&nbsp; <img src=//www.baidu.com/img/gs.gif> </p> </div> </div> </div> </body> </html>\\r\\n' = <InterFaceAutoTest.TestCaseOperation.TestCaseParam.TestCaseParam object at 0x00000265F6AE6388>.get_actual",
+  "statusTrace" : "self = <InterFaceAutoTest.TestCaseOperation.TestCaseParam.TestCaseParam object at 0x00000265F6AE6388>\nget_rd = <InterFaceAutoTest.DataOperation.Write_Excel.WriteExcel object at 0x00000265F69F5B48>\nget_connect = <ApiTest.Crm_Connect_Data.Get_Conn object at 0x00000265F69DDE88>\nget_depend = <InterFaceAutoTest.DependOperation.BusinessDependMethod.Business_Depend_Method object at 0x00000265F6AE4E48>\nget_request = <InterFaceAutoTest.RequestOperation.RequestMethod.Request_Method object at 0x00000265F6AE4388>\nget_value = [None, 'Y', 'GET', 'http://www.baidu.com', None, 5, ...]\n\n    @pytest.mark.parametrize(\"get_value\",[value for value in get_format_value()])\n    def test_all(self,get_rd,get_connect,get_depend,get_request,get_value):\n        \"\"\"\n        :param get_rd:\n        :param get_connect:\n        :param get_depend:\n        :param get_request:\n        :param get_value:\n        :return:\n        \"\"\"\n        get_expect=get_value[-1]\n        self.cookies = None\n        self.check_all(get_rd,get_connect,get_depend,get_request,*get_value[:-1])\n        # print(get_expect)\n        # print(\"实际结果是：\",self.get_actual)\n>       assert self.get_actual==get_expect\nE       AssertionError: assert '<!DOCTYPE html>\\r\\n<!--STATUS OK--><html> <head><meta http-equiv=content-type content=text/html;charset=utf-8><meta h...nbsp;äº¬ICPè¯\\x81030173å\\x8f·&nbsp; <img src=//www.baidu.com/img/gs.gif> </p> </div> </div> </div> </body> </html>\\r\\n' == {'text': '百度一下', 'title': '百度一下'}\nE        +  where '<!DOCTYPE html>\\r\\n<!--STATUS OK--><html> <head><meta http-equiv=content-type content=text/html;charset=utf-8><meta h...nbsp;äº¬ICPè¯\\x81030173å\\x8f·&nbsp; <img src=//www.baidu.com/img/gs.gif> </p> </div> </div> </div> </body> </html>\\r\\n' = <InterFaceAutoTest.TestCaseOperation.TestCaseParam.TestCaseParam object at 0x00000265F6AE6388>.get_actual\n\nTestCaseParam.py:90: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-R9QPJ6C"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "7860-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "InterFaceAutoTest.TestCaseOperation"
+  }, {
+    "name" : "testClass",
+    "value" : "InterFaceAutoTest.TestCaseOperation"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestCaseParam.TestCaseParam.test_all[get_value2]"
+  }, {
+    "name" : "package",
+    "value" : "InterFaceAutoTest.TestCaseOperation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "86582388d0c4ef68.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,11 @@
+{
+  "add_Biao_Fail": {"status":0,"code":"20103","data":null,"msg":"所有参数不能为空"},
+  "login_UserNotFound": {"msg": "用户不存在", "code": "1"},
+  "login_Success": {"code": "2", "msg": "登录成功", "username": "li12", "password": "123456"},
+  "baidu_Index": {"text": "百度一下","title": "百度一下"},
+  "register_Fail": {"msg": "手机号已经存在","code": 1},
+  "crm_Login_Success": {"text": "登录成功"},
+  "crm_Login_Fail": {"text": "帐号或密码错误"},
+  "crm_Add_Customer":{"js": "$.dialog.open.origin.location.reload();art.dialog.close();"}
+
+}
